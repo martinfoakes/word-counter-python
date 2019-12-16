@@ -4,6 +4,11 @@
 import sys
 
 if __name__ == "__main__":
+  # Functions in Python are defined with 'def' as:
+  # def foo(<input>):
+  #   <do something>
+  #   return <value>
+
   def count_words(data):
     words = data.split(' ')
     num_words = len(words)
